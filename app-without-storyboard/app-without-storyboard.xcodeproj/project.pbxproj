@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AD96EE2B25A8E2D000DFCAB9 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96EE2A25A8E2D000DFCAB9 /* CodableExtension.swift */; };
 		AD96EE2F25A8E3B400DFCAB9 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96EE2E25A8E3B400DFCAB9 /* Hash.swift */; };
+		AD96EE3625A8E59300DFCAB9 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD96EE3525A8E59300DFCAB9 /* RequestHandler.swift */; };
 		ADBB7BB825A4E4D30081C6AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB7BB725A4E4D30081C6AB /* AppDelegate.swift */; };
 		ADBB7BBA25A4E4D30081C6AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB7BB925A4E4D30081C6AB /* SceneDelegate.swift */; };
 		ADBB7BBC25A4E4D30081C6AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB7BBB25A4E4D30081C6AB /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		AD96EE2A25A8E2D000DFCAB9 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		AD96EE2E25A8E3B400DFCAB9 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		AD96EE3525A8E59300DFCAB9 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
 		ADBB7BB425A4E4D30081C6AB /* app-without-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app-without-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBB7BB725A4E4D30081C6AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBB7BB925A4E4D30081C6AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,30 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		AD96EE3225A8E56E00DFCAB9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AD96EE3425A8E57C00DFCAB9 /* Models */,
+				AD96EE3325A8E57500DFCAB9 /* Networking */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AD96EE3325A8E57500DFCAB9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AD96EE3525A8E59300DFCAB9 /* RequestHandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AD96EE3425A8E57C00DFCAB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ADBB7BAB25A4E4D30081C6AB = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +100,7 @@
 		ADBB7BB625A4E4D30081C6AB /* app-without-storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				AD96EE3225A8E56E00DFCAB9 /* Data */,
 				AD96EE2D25A8E39F00DFCAB9 /* Helper */,
 				ADEF51B125A62FC200C78DEA /* Presentation */,
 				ADBB7BCD25A4E7C00081C6AB /* Extensions */,
@@ -197,6 +224,7 @@
 				ADBB7BBC25A4E4D30081C6AB /* ViewController.swift in Sources */,
 				ADBB7BCF25A4E7D60081C6AB /* UINavigationController+.swift in Sources */,
 				ADBB7BB825A4E4D30081C6AB /* AppDelegate.swift in Sources */,
+				AD96EE3625A8E59300DFCAB9 /* RequestHandler.swift in Sources */,
 				ADBB7BBA25A4E4D30081C6AB /* SceneDelegate.swift in Sources */,
 				AD96EE2F25A8E3B400DFCAB9 /* Hash.swift in Sources */,
 				ADEF51B825A6342900C78DEA /* VCDataSource.swift in Sources */,
